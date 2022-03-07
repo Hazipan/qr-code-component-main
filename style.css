@@ -12,16 +12,7 @@ body {
     height: 95vh;
     font-size: 15px;
     font-family: 'Outfit', sans-serif;
-}
-
-#component-container {
-    
-    width: 80vw;
-    height: 80vh;
     background-color: var(--light-gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 p{
@@ -36,6 +27,7 @@ p{
     justify-content: space-around;
     padding-top: 10px;
     width: 275px;
+    max-width: 275px;
     box-shadow: 0 0 20px rgba(0,0,0,0.19), 0 0 6px rgba(0,0,0,0.23);
     background-color: white;
     border-radius: 15px;
@@ -49,5 +41,9 @@ p{
 #p1 { font-size: 20px; font-weight: 700; }
 #p2 { color: var(--dark-blue); font-weight: 400; }
 
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
 .attribution a { color: hsl(228, 45%, 44%); }
